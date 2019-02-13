@@ -1,8 +1,8 @@
 #!/bin/bash
 
-rm estado.txt #Borra el archivo
+rm estado.txt #Borra el archivo de estado
 
-/home/ibox/nautoreset/fecha.sh #Log de omprobacion
+/home/(ruta del archivo)/fecha.sh #Log de omprobacion
 sleep 2
 
        wget -q --tries=10 --timeout=5 --spider http://google.com #Ping a google
